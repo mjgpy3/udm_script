@@ -22,8 +22,8 @@ class PackageContainer:
         """
             Installs the package and it's "sub-packages"
         """
-
-        self.run_install_on(self.package)
+        if self.package:
+            self.run_install_on(self.package)
 
         for package in self.packages.values():
             self.run_install_on(package)
