@@ -1,4 +1,4 @@
-udm_script
+udm_script (Ultimate Dev. Machine Script)
 ==========
 
-Ultimate Dev Machine Script. A Python script that will automatically turn any apt-posessing virtual machine into a programmer's heaven
+A Python script that will automatically turn any apt-posessing virtual machine into a programmer's heaven.
