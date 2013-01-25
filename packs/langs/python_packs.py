@@ -10,4 +10,12 @@ sys.path.append('..')
 
 from package_container import PackageContainer
 
-class 
+
+packages = {'Pygame': 'python-pygame',
+            'Sympy': 'python-sympy', 
+            'Numpy': 'python-numpy',
+            'Scipy': 'python-scipy',
+            'Virtualenv': 'python-virtualenv',
+            'PIP': 'python-pip'}
+
+container = PackageContainer("Python", 'python', packages)

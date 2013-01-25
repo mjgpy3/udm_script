@@ -10,7 +10,6 @@
     installed
 """
 
-import sys
-sys.path.append('./langs')
+from langs import *
 
 package_containers = []
