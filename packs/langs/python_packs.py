@@ -10,6 +10,8 @@ sys.path.append('..')
 
 from package_container import PackageContainer
 
+def __init__():
+    pass
 
 packages = {'Pygame': 'python-pygame',
             'Sympy': 'python-sympy', 
