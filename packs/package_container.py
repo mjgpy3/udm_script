@@ -25,8 +25,8 @@ class PackageContainer:
 
         self.run_install_on(self.package)
 
-        for package in self.packages.get_values():
-            self.run_install_on(packages)
+        for package in self.packages.values():
+            self.run_install_on(package)
 
     def run_install_on(self, package):
         """
@@ -34,5 +34,5 @@ class PackageContainer:
         """
 
         # Not very dynamic, but...
-        return system('apt-get install ' + package)
+        return system('yes | apt-get install ' + package)
 
