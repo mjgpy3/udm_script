@@ -5,11 +5,34 @@
 # 
 # 
 
+from os import system
+
 class PackageContainer:
+    """
+        Holds the information for a package and associated, sort
+        of, "sub-packages"
+    """
+
     def __init__(self, name, its_package, packages={}):
         self.name = name
         self.package = its_package
         self.packages = packages
 
-    def install_name_and_packages(self):
-        pass
+    def install_me(self):
+        """
+            Installs the package and it's "sub-packages"
+        """
+
+        self.run_install_on(self.package)
+
+        for package in self.packages.get_values():
+            self.run_install_on(packages)
+
+    def run_install_on(self, package):
+        """
+            Runs an install command on the passed package name
+        """
+
+        # Not very dynamic, but...
+        return system('apt-get install ' + package)
+

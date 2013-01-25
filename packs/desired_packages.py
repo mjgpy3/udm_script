@@ -10,6 +10,6 @@
     installed
 """
 
-from langs import *
+import langs
 
-package_containers = [python_packs.container]
+package_containers = [langs.python_packs.container]
