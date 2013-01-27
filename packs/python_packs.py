@@ -12,6 +12,7 @@ packages = {'Pygame': 'python-pygame',
             'Numpy': 'python-numpy',
             'Scipy': 'python-scipy',
             'Virtualenv': 'python-virtualenv',
-            'PIP': 'python-pip'}
+            'PIP': 'python-pip',
+            'Django': 'python-django'}
 
 container = PackageContainer("Python", 'python', packages)
