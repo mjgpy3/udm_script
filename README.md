@@ -3,13 +3,10 @@ udm\_script (Ultimate Dev. Machine Script)
 
 A Python script that will automatically turn any apt-posessing virtual machine into a programmer's heaven.
 
-<hr/>
-
 Running
 ---------
  - Navigate to `udm_script/` and run the command `sudo ./udm.py`
 
-<hr/>
 
 Adding and Removing Packages
 ---------
