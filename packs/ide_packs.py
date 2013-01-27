@@ -23,7 +23,8 @@ packages = {'Eclipse': 'eclipse',
             'Anjuta': 'anjuta',
             'Glade': 'glade',
             'Code::Blocks': 'codeblocks',
-            'Arduino': 'arduino'}
+            'Arduino': 'arduino',
+            'Emacs': 'emacs'}
 
 container = PackageContainer("IDEs", None, packages)
 
