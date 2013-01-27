@@ -22,11 +22,18 @@ class PackageContainer:
         """
             Installs the package and it's "sub-packages"
         """
+        
+        failed_packs = []
+
         if self.package:
-            self.run_install_on(self.package)
+            if self.run_install_on(self.package) != 0:
+                failed_packs.append(self.package)
 
         for package in self.packages.values():
-            self.run_install_on(package)
+            if self.run_install_on(package) != 0:
+                failed_packs.append(package)
+
+        return failed_packs
 
     def run_install_on(self, package):
         """

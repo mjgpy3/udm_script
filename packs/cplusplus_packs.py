@@ -7,7 +7,7 @@
 
 from package_container import PackageContainer
 
-packages = {}
+packages = {'Doxygen': 'doxygen'}
 
 container = PackageContainer("C++", 'c++', packages)
 

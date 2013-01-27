@@ -12,8 +12,17 @@ def install_desired_packs():
     """
         Loops through the desired containers and installs them
     """
+
+    failed_packs = []
+
     for container in packs.desired_packages.package_containers:
-        container.install_me()
+        failed_packs += container.install_me()
+
+    if failed_packs != []:
+        print "\nThe following packages failed to install correctly:"
+        print "\n".join(pack_name for pack_name in failed_packs)
+    else:
+        print "\nEverything installed correctly"
 
 def get_string_name_and_pack(name, pack):
     return name + (' (' + pack + ')' if pack != None else '') + '\n'
@@ -40,8 +49,9 @@ def prompter():
     
     system('echo "' + get_string_of_packages() +'" | less')
 
-    return raw_input("Install the listed software? (yes/no): ").lower()[0] == 'y'
+    return raw_input("Install the listed software? (yes/no): ").lower().startswith('y')
 
 if __name__ == '__main__':
+    packs.test
     if prompter():
         install_desired_packs()

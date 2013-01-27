@@ -10,6 +10,8 @@ from package_container import PackageContainer
 packages = {'make': 'make',
             'Apache2': 'apache2',
             'Sqlite Browser': 'sqlitebrowser',
-            'Gitg': 'gitg'}
+            'Gitg': 'gitg',
+            'Natural Docs': 'naturaldocs',
+            'VDKbuilder': 'vdkbuilder2'}
 
 container = PackageContainer("Misc", None, packages)

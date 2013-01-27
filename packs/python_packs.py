@@ -16,6 +16,8 @@ packages = {'Pygame': 'python-pygame',
             'Django': 'python-django',
             'Pychecker': 'pychecker',
             'IPython': 'ipython',
-            'IDLE': 'idle'}
+            'IDLE': 'idle',
+            'Epydoc': 'python-epydoc',
+            'Sphinx': 'python-sphinx'}
 
 container = PackageContainer("Python", 'python', packages)

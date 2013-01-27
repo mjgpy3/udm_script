@@ -13,6 +13,7 @@
 import c_packs
 import cplusplus_packs
 import csharp_packs
+import d_packs
 import erlang_packs
 import fortran_packs
 import haskell_packs
@@ -28,6 +29,7 @@ import perl_packs
 import php5_packs
 import python_packs
 import r_packs
+import rexx_packs
 import ruby_packs
 import scala_packs
 import smalltalk_packs
@@ -36,26 +38,28 @@ import sql_packs
 import visualbasic_packs
 
 package_containers = [c_packs.container,
-                      cplusplus_packs.container,
-                      csharp_packs.container,
-                      erlang_packs.container,
-                      fortran_packs.container,
-                      haskell_packs.container,
-                      ide_packs.container,
-                      java_packs.container,
-                      javascript_packs.container,
-                      latex_packs.container,
-                      miscdevelopment_packs.container,
-                      ocaml_packs.container,
-                      office_packs.container,
-                      pascal_packs.container,
-                      perl_packs.container,
-                      php5_packs.container,
-                      python_packs.container,
-                      r_packs.container,
-                      ruby_packs.container,
-                      scala_packs.container,
-                      smalltalk_packs.container,
-                      sql_packs.container,
-                      source_control_packs.container,
-                      visualbasic_packs.container]
+#                      cplusplus_packs.container,
+#                      csharp_packs.container,
+ #                     d_packs.container,
+ #                     erlang_packs.container,
+ #                     fortran_packs.container,
+ #                     haskell_packs.container,
+ #                     ide_packs.container,
+  #                    java_packs.container,
+  #                    javascript_packs.container,
+                      latex_packs.container,]
+ #                     miscdevelopment_packs.container,
+ #                     ocaml_packs.container,
+ #                     office_packs.container,
+ #                     pascal_packs.container,
+ #                     perl_packs.container,
+ #                     php5_packs.container,
+#                      python_packs.container,
+#                      r_packs.container,
+#                      rexx_packs.container,
+#                      ruby_packs.container,
+#                      scala_packs.container,
+#                      smalltalk_packs.container,
+#                      sql_packs.container,
+#                      source_control_packs.container,
+#                      visualbasic_packs.container]
