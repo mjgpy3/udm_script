@@ -11,5 +11,13 @@
 """
 
 import python_packs
+import haskell_packs
+import source_control_packs
+import ide_packs
+import smalltalk_packs
 
-package_containers = [python_packs.container]
+package_containers = [python_packs.container,
+                      haskell_packs.container,
+                      smalltalk_packs.container,
+                      source_control_packs.container,
+                      ide_packs.container]
