@@ -7,6 +7,6 @@
 
 from package_container import PackageContainer
 
-packages = {}
+packages = {'Cabal': 'cabal-install'}
 
 container = PackageContainer("Haskell", 'ghc', packages)

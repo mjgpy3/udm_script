@@ -12,6 +12,8 @@ packages = {'make': 'make',
             'Sqlite Browser': 'sqlitebrowser',
             'Gitg': 'gitg',
             'Natural Docs': 'naturaldocs',
-            'VDKbuilder': 'vdkbuilder2'}
+            'VDKbuilder': 'vdkbuilder2',
+            'Terminator': 'terminator',
+            'Quake': 'quake'}
 
 container = PackageContainer("Misc", None, packages)
