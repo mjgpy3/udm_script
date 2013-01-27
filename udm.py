@@ -52,6 +52,5 @@ def prompter():
     return raw_input("Install the listed software? (yes/no): ").lower().startswith('y')
 
 if __name__ == '__main__':
-    packs.test
     if prompter():
         install_desired_packs()
