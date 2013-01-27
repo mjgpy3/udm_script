@@ -14,6 +14,7 @@ packages = {'make': 'make',
             'Natural Docs': 'naturaldocs',
             'VDKbuilder': 'vdkbuilder2',
             'Terminator': 'terminator',
-            'Quake': 'quake'}
+            'Quake': 'quake',
+            'ReText': 'retext'}
 
 container = PackageContainer("Misc", None, packages)
