@@ -8,6 +8,8 @@
 from package_container import PackageContainer
 
 packages = {'make': 'make',
-            'Apache2': 'apache2'}
+            'Apache2': 'apache2',
+            'Sqlite Browser': 'sqlitebrowser',
+            'Gitg': 'gitg'}
 
 container = PackageContainer("Misc", None, packages)
