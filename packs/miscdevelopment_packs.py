@@ -16,6 +16,7 @@ packages = {'make': 'make',
             'Terminator': 'terminator',
             'Guake': 'guake',
             'ReText': 'retext',
-            'XTerm': 'xterm'}
+            'XTerm': 'xterm',
+            'Wine': 'wine'}
 
 container = PackageContainer("Misc", None, packages)
