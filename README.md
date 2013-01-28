@@ -5,7 +5,7 @@ A Python script that will automatically turn any apt-posessing virtual machine i
 
 Running
 ---------
-It is recommended that `udm` is run on a Linux Mint, Ubuntu or Debian Virtual Machine. However, a real machine should work to. Note that `udm` is heavily reliant on `apt-get`, so make sure that it exists on your machine before running.
+This script has been tested with 100% installation success on Linux Mint 14.1 (Jan 28, 2013). Use of Linux Mint 14 is highly recommended, but Ubuntu or Debian should work as well. Note that `udm` is heavily reliant on `apt-get`, so make sure that it exists on your machine before running.
 
  - Navigate to `udm_script/` and run the command `sudo ./udm.py`
 
