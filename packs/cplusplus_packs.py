@@ -9,5 +9,5 @@ from package_container import PackageContainer
 
 packages = {'Doxygen': 'doxygen'}
 
-container = PackageContainer("C++", 'c++', packages)
+container = PackageContainer("C++", g++', packages)
 

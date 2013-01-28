@@ -9,4 +9,4 @@ from package_container import PackageContainer
 
 packages = {'NUnit': 'monodevelop-nunit'}
 
-container = PackageContainer("C#", 'monodevlop', packages)
+container = PackageContainer("C#", 'monodevelop', packages)
