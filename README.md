@@ -7,7 +7,6 @@ Running
 ---------
 It is recommended that `udm` is run on a Linux Mint, Ubuntu or Debian Virtual Machine. However, a real machine should work to. Note that `udm` is heavily reliant on `apt-get`, so make sure that it exists on your machine before running.
 
- - Make sure that `apt-get` is updated
  - Navigate to `udm_script/` and run the command `sudo ./udm.py`
 
 
