@@ -14,7 +14,7 @@ packages = {'make': 'make',
             'Natural Docs': 'naturaldocs',
             'VDKbuilder': 'vdkbuilder2',
             'Terminator': 'terminator',
-            'Quake': 'quake',
+            'Guake': 'guake',
             'ReText': 'retext',
             'XTerm': 'xterm'}
 

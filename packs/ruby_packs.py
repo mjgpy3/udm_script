@@ -7,8 +7,7 @@
 
 from package_container import PackageContainer
 
-packages = {'Rails': 'rails',
-            'RVM': 'ruby-rvm'}
+packages = {'Rails': 'rails'}
 
 container = PackageContainer("Ruby", 'ruby', packages)
 

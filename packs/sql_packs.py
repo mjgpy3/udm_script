@@ -7,7 +7,6 @@
 
 from package_container import PackageContainer
 
-packages = {'Sqlite': 'sqlite',
-            'MySql Server': 'mysql-server'}
+packages = {'Sqlite': 'sqlite'}
 
 container = PackageContainer("SQL", None, packages)
