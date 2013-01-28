@@ -19,4 +19,8 @@ packages = {'make': 'make',
             'XTerm': 'xterm',
             'Wine': 'wine'}
 
+special_package_instructions = {'Sticky Notes': 
+                                    ['yes | add-apt-repository ppa:umang/indicator-stickynotes',
+                                     'yes | apt-get update && sudo apt-get install indicator-stickynotes']}
+
 container = PackageContainer("Misc", None, packages)

@@ -13,10 +13,11 @@ class PackageContainer:
         of, "sub-packages"
     """
 
-    def __init__(self, name, its_package, packages={}):
+    def __init__(self, name, its_package, packages={}, spc = None):
         self.name = name
         self.package = its_package
         self.packages = packages
+        self.special_instructions = spc
 
     def install_me(self):
         """
@@ -32,6 +33,13 @@ class PackageContainer:
         for package in self.packages.values():
             if self.run_install_on(package) != 0:
                 failed_packs.append(package)
+
+        if self.special_instructions:
+            for tool in self.special_instructions:
+                for instruction in self.special_instructions[tool]:
+                    if system(instruction) != 0:
+                        failed_packs.append(tool)
+                        continue
 
         return failed_packs
 
