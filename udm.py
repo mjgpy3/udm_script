@@ -25,6 +25,10 @@ def install_desired_packs():
         print "\nEverything installed correctly"
 
 def get_string_name_and_pack(name, pack):
+    """
+        Returns a string like "<Software Name> (<Package Name>)"
+        where (<Package Name>) can be empty if none exists.
+    """
     return name + (' (' + pack + ')' if pack != None else '') + '\n'
 
 def get_string_of_packages():

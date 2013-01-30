@@ -39,7 +39,8 @@ import sql_packs
 import visualbasic_packs
 
 
-# Add or remove containers of packages here
+# Add or remove containers of packages here, make sure they
+# are imported above!
 package_containers = [c_packs.container,
                       cobol_packs.container,
                       cplusplus_packs.container,

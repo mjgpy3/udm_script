@@ -26,14 +26,17 @@ class PackageContainer:
         
         failed_packs = []
 
+        # If this container specifies a package, install it
         if self.package:
             if self.run_install_on(self.package) != 0:
                 failed_packs.append(self.package)
 
+        # If this container specifies multiple package, install them
         for package in self.packages.values():
             if self.run_install_on(package) != 0:
                 failed_packs.append(package)
 
+        # If this container has any special installation instructions, run them
         if self.special_instructions:
             for tool in self.special_instructions:
                 for instruction in self.special_instructions[tool]:
@@ -48,6 +51,7 @@ class PackageContainer:
             Runs an install command on the passed package name
         """
 
-        # Not very dynamic, but...
+        # Not very dynamic, but we'll let `self.special_instructions`
+        # handle anything non-`apt-get install ...`
         return system('yes | apt-get install ' + package)
 
