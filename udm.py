@@ -42,6 +42,9 @@ def get_string_of_packages():
         for name in container.packages:
             packages += '-> ' + get_string_name_and_pack(name,
                                                         container.packages[name])
+        if container.special_instructions:
+            for name in container.special_instructions:
+                packages += '-> ' + get_string_name_and_pack(name, None)
     return packages
     
 
