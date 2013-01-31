@@ -17,7 +17,8 @@ packages = {'make': 'make',
             'Guake': 'guake',
             'ReText': 'retext',
             'XTerm': 'xterm',
-            'Wine': 'wine'}
+            'Wine': 'wine',
+            'DDD': 'ddd'}
 
 special_package_instructions = {'Sticky Notes': 
                                     ['yes | add-apt-repository ppa:umang/indicator-stickynotes',

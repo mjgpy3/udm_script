@@ -13,6 +13,7 @@ packages = {'Eclipse': 'eclipse',
             'Mono Game': 'monodevelop-monogame',
             'Netbeans': 'netbeans',
             'Gedit': 'gedit',
+            'Gedit Plugins': 'gedit-plugins',
             'Jedit': 'jedit',
             'VIM': 'vim',
             'VIM GTK': 'vim',
@@ -25,7 +26,8 @@ packages = {'Eclipse': 'eclipse',
             'Code::Blocks': 'codeblocks',
             'Arduino': 'arduino',
             'Emacs': 'emacs',
-            'Leksah': 'leksah'}
+            'Leksah': 'leksah',
+            'Codelite': 'codelite'}
 
 container = PackageContainer("IDEs", None, packages)
 
