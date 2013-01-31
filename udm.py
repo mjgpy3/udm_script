@@ -5,6 +5,11 @@
 # 
 # 
 
+"""
+    The Ultimate Dev. Machine script. Run with sudo to turn a virtual
+    machine into a developer's heaven.
+"""
+
 import packs
 from os import system
 from datetime import datetime
