@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+# Created by Michael Gilliland
+# Date: Thu Jan 31 16:06:58 EST 2013
+# 
+# 
+
+"""
+    A hacked together tool for making commits easier
+"""
+
+from os import system
+
+clean = lambda: system('./clean.py')
+
+if __name__ == '__main__':
+    clean()
+
+    # No error has occured
+    if system('pychecker ../udm.py') == 0:
+        system('git add -A')
+        system('git commit -m "' + raw_input('Commit Message: \n')  +'"')
+        system('git push')
+
+    clean()
