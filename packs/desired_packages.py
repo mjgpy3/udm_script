@@ -30,6 +30,7 @@ import office_packs
 import pascal_packs
 import perl_packs
 import php5_packs
+import prolog_packs
 import python_packs
 import r_packs
 import rexx_packs
@@ -63,6 +64,7 @@ package_containers = [ada_packs.container,
                       pascal_packs.container,
                       perl_packs.container,
                       php5_packs.container,
+                      prolog_packs.container,
                       python_packs.container,
                       r_packs.container,
                       rexx_packs.container,
