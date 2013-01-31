@@ -21,5 +21,8 @@ if __name__ == '__main__':
         system('git add -A')
         system('git commit -m "' + raw_input('Commit Message: \n')  +'"')
         system('git push')
+    else:
+        print "There is an error in the code!!!"
+        print "Debug, monkey! Debug!!!"
 
     clean()
