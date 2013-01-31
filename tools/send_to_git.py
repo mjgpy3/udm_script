@@ -11,7 +11,7 @@
 
 from os import system
 
-clean = lambda: system('./clean.py')
+clean = lambda: system('find .. -name "*.pyc" | xargs rm')
 
 if __name__ == '__main__':
     clean()
