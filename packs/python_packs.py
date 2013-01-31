@@ -21,7 +21,9 @@ packages = {'Pygame': 'python-pygame',
             'Sphinx': 'python-sphinx',
             'SQLAlchemy': 'python-sqlalchemy',
             'Requests': 'python-requests',
-            'Flask': 'python-flask',
-            }
+            'Flask': 'python-flask'}
 
-container = PackageContainer("Python", 'python', packages)
+special_package_instructions = {'sh': ['pip install sh']}
+
+
+container = PackageContainer("Python", 'python', packages, special_package_instructions)
