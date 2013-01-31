@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     # No error has occured
     if system('pychecker ../udm.py') == 0:
-        system('git add -A')
+        system('git add ..')
         system('git commit -m "' + raw_input('Commit Message: \n')  +'"')
         system('git push')
     else:

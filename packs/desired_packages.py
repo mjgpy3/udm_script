@@ -10,6 +10,7 @@
     installed
 """
 
+import ada_packs
 import c_packs
 import cobol_packs
 import cplusplus_packs
@@ -42,7 +43,8 @@ import visualbasic_packs
 
 # Add or remove containers of packages here, make sure they
 # are imported above!
-package_containers = [c_packs.container,
+package_containers = [ada_packs.container,
+                      c_packs.container,
                       cobol_packs.container,
                       cplusplus_packs.container,
                       csharp_packs.container,
