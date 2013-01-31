@@ -22,6 +22,7 @@ import ide_packs
 import java_packs
 import javascript_packs
 import latex_packs
+import lisp_packs
 import miscdevelopment_packs
 import ocaml_packs
 import office_packs
@@ -53,6 +54,7 @@ package_containers = [c_packs.container,
                       java_packs.container,
                       javascript_packs.container,
                       latex_packs.container,
+                      lisp_packs.container,
                       miscdevelopment_packs.container,
                       ocaml_packs.container,
                       office_packs.container,
