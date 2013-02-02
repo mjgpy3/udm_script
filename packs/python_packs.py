@@ -21,7 +21,9 @@ packages = {'Pygame': 'python-pygame',
             'Sphinx': 'python-sphinx',
             'SQLAlchemy': 'python-sqlalchemy',
             'Requests': 'python-requests',
-            'Flask': 'python-flask'}
+            'Flask': 'python-flask',
+            'Boost.Python': 'libboost-python-dev',
+            'Python Dev': 'python-dev'}
 
 special_package_instructions = {'sh': ['pip install sh']}
 
