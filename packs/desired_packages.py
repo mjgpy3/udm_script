@@ -23,6 +23,7 @@ import haskell_packs
 import ide_packs
 import java_packs
 import javascript_packs
+import j_packs
 import latex_packs
 import lisp_packs
 import miscdevelopment_packs
@@ -58,6 +59,7 @@ package_containers = [ada_packs.container,
                       ide_packs.container,
                       java_packs.container,
                       javascript_packs.container,
+                      j_packs.container,
                       latex_packs.container,
                       lisp_packs.container,
                       miscdevelopment_packs.container,
