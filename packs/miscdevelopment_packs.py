@@ -18,7 +18,8 @@ packages = {'make': 'make',
             'ReText': 'retext',
             'XTerm': 'xterm',
             'Wine': 'wine',
-            'DDD': 'ddd'}
+            'DDD': 'ddd',
+            'Xpdf': 'xpdf'}
 
 special_package_instructions = {'Sticky Notes': 
                                     ['yes | add-apt-repository ppa:umang/indicator-stickynotes',
