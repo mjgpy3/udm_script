@@ -22,7 +22,8 @@ packages = {'Pygame': 'python-pygame',
             'SQLAlchemy': 'python-sqlalchemy',
             'Requests': 'python-requests',
             'Flask': 'python-flask',
-            'Python Dev': 'python-dev'}
+            'Python Dev': 'python-dev',
+            'Beautiful Soup': 'python-beautifulsoup'}
 
 special_package_instructions = {'sh': ['pip install sh']}
 
