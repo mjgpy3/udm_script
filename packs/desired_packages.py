@@ -17,6 +17,7 @@ import cobol_packs
 import cplusplus_packs
 import csharp_packs
 import d_packs
+import diagraming_packs
 import erlang_packs
 import fortran_packs
 import haskell_packs
@@ -53,6 +54,7 @@ package_containers = [ada_packs.container,
                       cplusplus_packs.container,
                       csharp_packs.container,
                       d_packs.container,
+                      diagraming_packs.container,
                       erlang_packs.container,
                       fortran_packs.container,
                       haskell_packs.container,
