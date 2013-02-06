@@ -23,7 +23,10 @@ packages = {'Pygame': 'python-pygame',
             'Requests': 'python-requests',
             'Flask': 'python-flask',
             'Python Dev': 'python-dev',
-            'Beautiful Soup': 'python-beautifulsoup'}
+            'Beautiful Soup': 'python-beautifulsoup',
+            'Jython': 'jython',
+            'Cython': 'cython',
+            'PyPy': 'pypy'}
 
 special_package_instructions = {'sh': ['pip install sh']}
 

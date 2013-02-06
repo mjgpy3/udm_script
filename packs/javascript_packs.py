@@ -7,6 +7,6 @@
 
 from package_container import PackageContainer
 
-packages = {}
+packages = {'Node.js': 'nodejs'}
 
 container = PackageContainer("JavaScript", 'rhino', packages)

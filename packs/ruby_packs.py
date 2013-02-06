@@ -7,7 +7,8 @@
 
 from package_container import PackageContainer
 
-packages = {'Rails': 'rails'}
+packages = {'Rails': 'rails',
+            'JRuby': 'jruby'}
 
 container = PackageContainer("Ruby", 'ruby', packages)
 
