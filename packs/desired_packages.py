@@ -28,6 +28,7 @@ import j_packs
 import latex_packs
 import lisp_packs
 import miscdevelopment_packs
+import network_packs
 import ocaml_packs
 import office_packs
 import pascal_packs
@@ -65,6 +66,7 @@ package_containers = [ada_packs.container,
                       latex_packs.container,
                       lisp_packs.container,
                       miscdevelopment_packs.container,
+                      network_packs.container,
                       ocaml_packs.container,
                       office_packs.container,
                       pascal_packs.container,
