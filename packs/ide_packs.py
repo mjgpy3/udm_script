@@ -29,7 +29,8 @@ packages = {'Eclipse': 'eclipse',
             'Leksah': 'leksah',
             'Codelite': 'codelite',
             'LyX': 'lyx',
-            'Abiword': 'abiword'}
+            'Abiword': 'abiword',
+            'Kate': 'kate'}
 
 container = PackageContainer("IDEs", None, packages)
 
