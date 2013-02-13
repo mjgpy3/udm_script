@@ -9,6 +9,7 @@ from package_container import PackageContainer
 
 packages = {'Dia': 'dia',
             'BOUML': 'bouml',
-            'Umlet': 'umlet'}
+            'Umlet': 'umlet',
+            'FreeMind': 'freemind'}
 
 container = PackageContainer("Diagraming", None, packages)
