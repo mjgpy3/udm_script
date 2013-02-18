@@ -26,7 +26,8 @@ packages = {'Pygame': 'python-pygame',
             'Beautiful Soup': 'python-beautifulsoup',
             'Jython': 'jython',
             'Cython': 'cython',
-            'PyPy': 'pypy'}
+            'PyPy': 'pypy',
+            'Python Openoffice': 'python-openoffice'}
 
 special_package_instructions = {'sh': ['pip install sh']}
 
