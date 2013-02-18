@@ -40,6 +40,7 @@ import r_packs
 import rexx_packs
 import ruby_packs
 import scala_packs
+import scheme_packs
 import smalltalk_packs
 import source_control_packs
 import sql_packs
@@ -78,6 +79,7 @@ package_containers = [ada_packs.container,
                       rexx_packs.container,
                       ruby_packs.container,
                       scala_packs.container,
+                      scheme_packs.container,
                       smalltalk_packs.container,
                       sql_packs.container,
                       source_control_packs.container,
