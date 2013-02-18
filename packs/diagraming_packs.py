@@ -8,7 +8,6 @@
 from package_container import PackageContainer
 
 packages = {'Dia': 'dia',
-            'BOUML': 'bouml',
             'Umlet': 'umlet',
             'FreeMind': 'freemind'}
 
