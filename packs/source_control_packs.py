@@ -11,6 +11,8 @@ packages = {'Git': 'git',
             'SVN': 'subversion',
             'CVS': 'cvs',
             'Mercurial': 'mercurial',
-            'Mono Version Control': 'monodevelop-versioncontrol'}
+            'Mono Version Control': 'monodevelop-versioncontrol',
+            'Git Cola': 'git-cola',
+            'Git GUI': 'git-gui'}
 
 container = PackageContainer("Source Control", None, packages)
