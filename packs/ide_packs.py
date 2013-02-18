@@ -36,7 +36,7 @@ packages = {'Eclipse': 'eclipse',
             'PIDA': 'pida',
             'Spyder': 'spyder',
             'Eric': 'eric',
-            'E3': 'e3'
+            'E3': 'e3',
             'CSS Editor': 'cssed'}
 
 container = PackageContainer("IDEs", None, packages)
