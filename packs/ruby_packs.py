@@ -10,5 +10,7 @@ from package_container import PackageContainer
 packages = {'Rails': 'rails3',
             'JRuby': 'jruby'}
 
-container = PackageContainer("Ruby", 'ruby', packages)
+special_instructions = {'JSON': ['gem install json']}
+
+container = PackageContainer("Ruby", 'ruby', packages, special_instructions)
 
