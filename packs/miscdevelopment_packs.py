@@ -19,7 +19,8 @@ packages = {'make': 'make',
             'XTerm': 'xterm',
             'Wine': 'wine',
             'DDD': 'ddd',
-            'Xpdf': 'xpdf'}
+            'Xpdf': 'xpdf',
+            'FreeMind': 'freemind'}
 
 special_package_instructions = {'Sticky Notes': 
                                     ['yes | add-apt-repository ppa:umang/indicator-stickynotes',
