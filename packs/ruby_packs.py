@@ -7,8 +7,7 @@
 
 from package_container import PackageContainer
 
-packages = {'Rails': 'rails3',
-            'JRuby': 'jruby'}
+packages = {'JRuby': 'jruby'}
 
 special_instructions = {'JSON': ['gem install json']}
 
