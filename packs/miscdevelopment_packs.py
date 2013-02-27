@@ -17,7 +17,6 @@ packages = {'make': 'make',
             'Guake': 'guake',
             'ReText': 'retext',
             'XTerm': 'xterm',
-            'Wine': 'wine',
             'DDD': 'ddd',
             'Xpdf': 'xpdf',
             'FreeMind': 'freemind'}
