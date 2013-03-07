@@ -10,7 +10,8 @@ from package_container import PackageContainer
 packages = {'Cabal': 'cabal-install',
             'Haskell Platform': 'haskell-platform',
             'Drift': 'drift',
-            'Hugs': 'hugs'}
+            'Hugs': 'hugs',
+            'lhs2Tex': 'lhs2tex'}
 
 special_packs = {'Haddock': ['cabal update', 'cabal install haddock']}
 
