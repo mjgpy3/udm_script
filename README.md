@@ -23,3 +23,9 @@ To remove or add individual packages:
  - Navigate to `udm_script/packs`
  - Open the container of the package that you want to add or remove
  - Add or remove items from the `packages` dictionary in the following form: <br/>`'<user-friendly-name>': '<actual-package-name>'` (note that the `<actual-package-name>` is what `apt` will be expecting)
+
+Todo:
+
+ - Add style guides to FireFix Links
+ - Add Open Source Book downloader
+ - Add package sites (e.g. Hackage, perlmonks)
