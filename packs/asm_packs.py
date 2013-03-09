@@ -7,6 +7,7 @@
 
 from package_container import PackageContainer
 
-packages = {'YASM': 'yasm'}
+packages = {'YASM': 'yasm',
+            'SPIM': 'spim'}
 
 container = PackageContainer("Assembly", 'nasm', packages)
