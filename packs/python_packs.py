@@ -27,7 +27,8 @@ packages = {'Pygame': 'python-pygame',
             'Jython': 'jython',
             'Cython': 'cython',
             'PyPy': 'pypy',
-            'Python Openoffice': 'python-openoffice'}
+            'Python Openoffice': 'python-openoffice',
+            'CX Freeze': 'cx-freeze'}
 
 special_package_instructions = {'sh': ['pip install sh']}
 
