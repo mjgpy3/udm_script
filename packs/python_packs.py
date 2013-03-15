@@ -30,7 +30,8 @@ packages = {'Pygame': 'python-pygame',
             'Python Openoffice': 'python-openoffice',
             'CX Freeze': 'cx-freeze'}
 
-special_package_instructions = {'sh': ['pip install sh']}
+special_package_instructions = {'sh': ['pip install sh'],
+                                'Selenium': ['pip install selenium']}
 
 
 container = PackageContainer("Python", 'python', packages, special_package_instructions)
