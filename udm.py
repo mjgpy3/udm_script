@@ -2,8 +2,8 @@
 
 # Created by Michael Gilliland
 # Date: Fri Jan 25 17:20:17 EST 2013
-# 
-# 
+#
+#
 
 """
     The Ultimate Dev. Machine script. Run with sudo to turn a virtual
@@ -14,11 +14,11 @@ import packs
 from os import system
 from datetime import datetime
 
+
 def install_desired_packs(successful_packs):
     """
         Loops through the desired containers and installs them
     """
-
     failed_packs = []
 
     for container in packs.desired_packages.package_containers:
@@ -30,12 +30,14 @@ def install_desired_packs(successful_packs):
     else:
         print "\nEverything installed correctly"
 
+
 def get_string_name_and_pack(name, pack):
     """
         Returns a string like "<Software Name> (<Package Name>)"
         where (<Package Name>) can be empty if none exists.
     """
     return name + (' (' + pack + ')' if pack != None else '') + '\n'
+
 
 def get_string_of_packages():
     """
@@ -47,11 +49,12 @@ def get_string_of_packages():
         packages += get_string_name_and_pack(container.name, container.package)
         for name in container.packages:
             packages += '-> ' + get_string_name_and_pack(name,
-                                                        container.packages[name])
+                                                      container.packages[name])
         if container.special_instructions:
             for name in container.special_instructions:
                 packages += '-> ' + get_string_name_and_pack(name, None)
     return packages
+
 
 def write_dict_as_html(dic, file_name):
     """
@@ -64,22 +67,24 @@ def write_dict_as_html(dic, file_name):
     f.write('    <h2>Ultimate Dev. Machine</h2>')
     f.write('    <h3>Installation on: %s</h3>' % now)
     for container in dic:
-        f.write('    <h5>%s<h5>\n    <ol>\n' % container) 
-        for package in dic[container]: 
+        f.write('    <h5>%s<h5>\n    <ol>\n' % container)
+        for package in dic[container]:
             f.write('      <li>%s</li>\n' % package)
         f.write('    </ol><br />\n\n')
     f.write('  </body>\n</html>')
-     
+
 
 def prompter():
     """
         Asks the user whether they want to install the software
         or not
     """
-    
-    system('echo "' + get_string_of_packages() +'" | less')
 
-    return raw_input("Install the listed software? (yes/no): ").lower().startswith('y')
+    system('echo "' + get_string_of_packages() + '" | less')
+
+    return raw_input(
+                     "Install the listed software? (yes/no): "
+                     ).lower().startswith('y')
 
 if __name__ == '__main__':
     system('apt-get update')
