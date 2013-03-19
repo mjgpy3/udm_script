@@ -7,6 +7,6 @@
 
 from package_container import PackageContainer
 
-packages = {}
+packages = {'CPAN Minus': 'cpanminus'}
 
 container = PackageContainer("Perl", 'perl', packages)
