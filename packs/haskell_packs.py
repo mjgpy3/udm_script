@@ -11,11 +11,11 @@ packages = {'Cabal': 'cabal-install',
             'Haskell Platform': 'haskell-platform',
             'Drift': 'drift',
             'Hugs': 'hugs',
-            'lhs2Tex': 'lhs2tex'}
+            'lhs2Tex': 'lhs2tex',
+            'HLint': 'hlint'}
 
 special_packs = {'Haddock': ['cabal update', 'cabal install haddock'],
                  'HUnut': ['cabal update', 'cabal install hunit'],
-                 'Vacuum': ['cabal update', 'cabal install vacuum'],
-                 'HLint': ['cabal update', 'cabal install hlint']}
+                 'Vacuum': ['cabal update', 'cabal install vacuum']}
 
 container = PackageContainer("Haskell", 'ghc', packages)
