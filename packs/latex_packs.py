@@ -7,6 +7,6 @@
 
 from package_container import PackageContainer
 
-packages = {}
+packages = {'LaTeX2HTML': 'latex2html'}
 
 container = PackageContainer("Latex", 'texlive', packages)
