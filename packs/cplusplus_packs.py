@@ -8,7 +8,8 @@
 from package_container import PackageContainer
 
 packages = {'Doxygen': 'doxygen',
-            'CPPCheck': 'cppcheck'}
+            'CPPCheck': 'cppcheck',
+            'Clang': 'clang'}
 
 container = PackageContainer("C++", 'g++', packages)
 
