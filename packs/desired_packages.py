@@ -15,6 +15,7 @@ import asm_packs
 import brainf_packs
 import c_packs
 import cobol_packs
+import compiler_packs
 import cplusplus_packs
 import csharp_packs
 import d_packs
@@ -55,6 +56,7 @@ package_containers = [ada_packs.container,
                       brainf_packs.container,
                       c_packs.container,
                       cobol_packs.container,
+                      compiler_packs.container,
                       cplusplus_packs.container,
                       csharp_packs.container,
                       d_packs.container,
