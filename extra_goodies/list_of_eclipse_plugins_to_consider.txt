@@ -3,4 +3,5 @@ EclipseFP - Haskell development toolkit
 EGit      - Eclipse git plugin
 DLTK      - Dynamic languages toolkit (currently includes Python, JS, Ruby...)
 TexLispe  - LaTeX for eclipse
-
+OcaIDE    - OCaml IDE
+Scala IDE - Scala plugin
