@@ -18,6 +18,8 @@ special_packs = {'Haddock': ['cabal update', 'cabal install haddock'],
                  'HUnut': ['cabal update', 'cabal install hunit'],
                  'Vacuum': ['cabal update', 'cabal install vacuum'],
                  'Virthualenv': ['cabal update', 'cabal install virthualenv'],
-                 'QuickCheck': ['cabal update', 'cabal install quickcheck']}
+                 'QuickCheck': ['cabal update', 'cabal install quickcheck'],
+                 'Hoogle': ['cabal update', 'cable install hoogle'],
+                 'Stylish Haskell': ['cabal update', 'cabal install stylish-haskell']}
 
 container = PackageContainer("Haskell", 'ghc', packages)
