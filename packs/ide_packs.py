@@ -10,6 +10,7 @@ from package_container import PackageContainer
 packages = {'Eclipse': 'eclipse',
             'Eclipse C/C++': 'eclipse-cdt',
             'MonoDevelop': 'monodevelop',
+            'NUnit (mono)': 'monodevelop-nunit',
             'Netbeans': 'netbeans',
             'Gedit': 'gedit',
             'Gedit Plugins': 'gedit-plugins',
