@@ -7,6 +7,8 @@
 
 from package_container import PackageContainer
 
-packages = {}
+packages = {'LLVM': 'llvm',
+            'Bison': 'bison',
+            'Flex': 'flex'}
 
-container = PackageContainer("Compiler Packs", "llvm", packages)
+container = PackageContainer("Compiler Packs", None, packages)
