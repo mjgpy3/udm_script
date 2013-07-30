@@ -8,6 +8,7 @@
 from package_container import PackageContainer
 
 packages = {'Node.js': 'nodejs',
-            'CoffeeScript': 'coffeescript'}
+            'CoffeeScript': 'coffeescript',
+            'Node Package Manager': 'npm'}
 
 container = PackageContainer("JavaScript", 'rhino', packages)
