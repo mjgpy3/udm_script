@@ -23,4 +23,4 @@ special_packs = {'Haddock': ['cabal update', 'cabal install haddock'],
                  'Stylish Haskell': ['cabal update', 'cabal install stylish-haskell'],
                  'Source Graph': ['cabal update', 'cabal install sourcegraph']}
 
-container = PackageContainer("Haskell", 'ghc', packages)
+container = PackageContainer("Haskell", 'ghc', packages, special_packs)
